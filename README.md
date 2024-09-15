@@ -13,12 +13,12 @@ For our purposes, a Band has many concerts, a Venue has many concerts, and a Con
 3. Create a new branch for your solutions
 
 ## Tasks Completed
-Deliverables
+## Deliverables
 You will be writing methods that execute raw SQL queries to interact with your database. Use Python’s sqlite3 or psycopg2 library to run SQL commands.
 
 Make sure to set up your database and tables using raw SQL commands before working on the deliverables.
 
-Migrations
+ Migrations
 Before working on these deliverables, you need to create migrations for the concerts table. This is assuming you have already created and migrated the band and venues tables.
 
 A Concert belongs to a Band and a Venue. In your migration, create any columns your concerts table will need to establish these relationships.
