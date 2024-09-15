@@ -36,9 +36,9 @@ CREATE TABLE IF NOT EXISTS concerts (
 
 # Insert data into 'bands' table
 bands_data = [
-    ('Band A', 'New York'),
-    ('Band B', 'Los Angeles'),
-    ('Band C', 'Chicago')
+    ('Band A', 'Rockas'),
+    ('Band B', 'Bullet'),
+    ('Band C', 'Indigo')
 ]
 
 cursor.executemany('INSERT INTO bands (name, hometown) VALUES (?, ?)', bands_data)

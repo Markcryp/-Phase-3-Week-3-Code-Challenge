@@ -6,8 +6,8 @@ def insert_data():
     cursor = connection.cursor()
 
     # Insert sample data into 'bands' table
-    cursor.execute("INSERT INTO bands (name, hometown) VALUES ('Band A', 'New York')")
-    cursor.execute("INSERT INTO bands (name, hometown) VALUES ('Band B', 'Los Angeles')")
+    cursor.execute("INSERT INTO bands (name, hometown) VALUES ('Band A', 'Rockas')")
+    cursor.execute("INSERT INTO bands (name, hometown) VALUES ('Band B', 'Bullet')")
 
     # Insert sample data into 'venues' table
     cursor.execute("INSERT INTO venues (title, city) VALUES ('Venue X', 'New York')")
