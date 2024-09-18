@@ -1,6 +1,6 @@
-from band import Band
-from venue import Venue
-from concert import Concert
+from concert.band import Band
+from concert.venue import Venue
+from concert.concert import Concert
 
 def test_setup():
     # Create and save a Band
